@@ -14,7 +14,7 @@ export async function shouldUsePluelyAPI(): Promise<boolean> {
     const hasLicense = await invoke<boolean>("check_license_status");
     return hasLicense;
   } catch (error) {
-    console.warn("Failed to check Pluely API availability:", error);
+    console.warn("Failed to check Pluel API availability:", error);
     return false;
   }
 }

@@ -15,19 +15,19 @@ const osInstructions: Record<string, Instructions> = {
   macos: {
     title: "System Audio Permission Required",
     description:
-      "Pluely needs permission to capture your screen's audio. Clicking the button will open System Settings.",
+      "Redix needs permission to capture your screen's audio. Clicking the button will open System Settings.",
     buttonText: "Open System Settings",
     manualTitle: "If permission is not granted automatically:",
     manualSteps:
-      "1. Go to System Settings > Privacy & Security > Screen & System Audio Recording.\n2. Find Pluely in the list and enable it, if not found then click on + and add Pluely.",
-    note: "A restart of Pluely may be required after granting permission.",
+      "1. Go to System Settings > Privacy & Security > Screen & System Audio Recording.\n2. Find Redix in the list and enable it, if not found then click on + and add Redix.",
+    note: "A restart of Redix may be required after granting permission.",
   },
   windows: {
     title: "System Audio Access",
     description:
-      "Pluely needs to access your system audio. The button below will open the Sound settings panel for troubleshooting.",
+      "Redix needs to access your system audio. The button below will open the Sound settings panel for troubleshooting.",
     buttonText: "Open Sound Settings",
-    manualTitle: "To ensure Pluely can capture audio:",
+    manualTitle: "To ensure Redix can capture audio:",
     manualSteps:
       "1. In Sound settings, ensure the correct speakers are set as the default device.\n2. Check your device properties and disable any 'Exclusive Mode' settings.",
     note: "Windows does not require a specific permission prompt for audio capture.",
@@ -35,7 +35,7 @@ const osInstructions: Record<string, Instructions> = {
   linux: {
     title: "System Audio Setup",
     description:
-      "Pluely captures audio using PulseAudio. Please ensure it is configured correctly.",
+      "Redix captures audio using PulseAudio. Please ensure it is configured correctly.",
     buttonText: "Setup Instructions",
     manualTitle: "Troubleshooting Steps:",
     manualSteps:
@@ -44,11 +44,11 @@ const osInstructions: Record<string, Instructions> = {
   },
   undetermined: {
     title: "System Audio Permission",
-    description: "Pluely needs permission to capture system audio.",
+    description: "Redix needs permission to capture system audio.",
     buttonText: "Grant Permission",
     manualTitle: "Manual Setup:",
     manualSteps:
-      "Please check your system's privacy or sound settings to allow Pluely to capture audio.",
+      "Please check your system's privacy or sound settings to allow Redix to capture audio.",
   },
 };
 

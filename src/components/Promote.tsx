@@ -29,27 +29,27 @@ const Promote = () => {
       <CardContent className="flex flex-col gap-4 p-4 py-0 md:flex-row md:items-center md:justify-between">
         <div className="space-y-2 md:max-w-[70%]">
           <CardTitle className="text-xs lg:text-sm">
-            Promote Pluely, Earn Rewards
+            Promote this app, Earn Rewards
           </CardTitle>
           <CardDescription className="text-[10px] lg:text-xs">
-            Share Pluely on social, hit 5K impressions, and we&apos;ll send you
+            Share this app on social, hit 5K impressions, and we&apos;ll send you
             a $5&ndash;$10 coupon for a monthly plan. Email your post link to{" "}
             <a
               className="text-primary underline underline-offset-4"
               href="mailto:support@pluely.com"
             >
-              support@pluely.com
+              support@redixai.com
             </a>
             .
           </CardDescription>
         </div>
         <Button asChild className="w-full md:w-auto text-[10px] lg:text-xs">
           <a
-            href="https://pluely.com/promote"
+            href="https://redixai.com"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Pluely.com/promote
+            redixai.com/promote
           </a>
         </Button>
       </CardContent>
