@@ -49,7 +49,8 @@ const Dashboard = () => {
   return (
     <PageLayout
       title="Dashboard"
-      description="More license to unlock faster responses, quicker support and premium features."
+      description="Beta Version: Limited features available. Some functionalities may not be fully implemented yet.
+"
       rightSlot={!hasActiveLicense ? <GetLicense /> : null}
     >
       {/* Pluely API Setup */}

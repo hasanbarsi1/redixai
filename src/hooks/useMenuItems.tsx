@@ -85,11 +85,12 @@ export const useMenuItems = () => {
           },
         ]
       : []),
-    {
-      icon: BugIcon,
-      label: "Report a bug",
-      href: "https://github.com/hasanbarsi1/redixai/issues/new?template=bug-report.yml",
-    },
+      {
+        icon: BugIcon,
+        label: "Report a bug",
+        href: "https://wa.me/601068357540?text=I%20WANT%20TO%20REPORT%20A%20BUG%3A%0A%0A-%20Description%3A%0A- %20Steps%20to%20reproduce%3A%0A- %20Expected%20Behavior%3A%0A- %20Actual%20Behavior%3A%0A- %20Screenshot%20URL%20(if%20any)%3A"
+      },
+      
     {
       icon: PowerIcon,
       label: "Quit App",
@@ -122,7 +123,7 @@ export const useMenuItems = () => {
     {
       title: "Follow on X",
       icon: XIcon,
-      link: "https://x.com/truly_sn",
+      link: "https://x.com/siu72655",
     },
   ];
 
